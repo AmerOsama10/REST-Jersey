@@ -1,4 +1,4 @@
-package com.telusko.JerseryRest;
+package com.telusko.JerseryRest.normal;
 
 
 import java.util.List;

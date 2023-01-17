@@ -1,5 +1,5 @@
 
-package com.telusko.JerseryRest;
+package com.telusko.JerseryRest.database;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

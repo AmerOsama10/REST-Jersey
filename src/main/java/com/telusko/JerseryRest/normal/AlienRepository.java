@@ -1,9 +1,13 @@
-package com.telusko.JerseryRest;
+package com.telusko.JerseryRest.normal;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class AlienRepository {
+	
+	
 	List<Alien>aliens ;
 	Alien a1 , a2 ;
 	public AlienRepository() {

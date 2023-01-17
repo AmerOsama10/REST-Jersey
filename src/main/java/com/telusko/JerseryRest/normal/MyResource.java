@@ -1,4 +1,4 @@
-package com.telusko.JerseryRest;
+package com.telusko.JerseryRest.normal;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
