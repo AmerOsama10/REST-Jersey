@@ -35,10 +35,41 @@ public class AlienRepository {
 		return null;
 	}
 	
-	
 	public void createAlien(Alien alien) {
 		aliens.add(alien);
 		
 	}
+	
+	public void updateAlien( Alien newAlien){
+		
+		Alien a =getAlien(newAlien.getId());
+		if(a!=null)
+		{
+		a.setName(newAlien.getName());
+		a.setPoints(newAlien.getPoints());
+		}
+		else
+		{
+			createAlien(newAlien);
+		}
+		
+	}
+	
+	
+	public void deleteAlien(int id){
+		Alien a =getAlien(id);
+		if(a!=null)
+		{
+			aliens.remove(a);
+		}
+		else
+		{
+			System.err.println("There is no ID");
+		}
+
+		
+	}
+	
+
 
 }
