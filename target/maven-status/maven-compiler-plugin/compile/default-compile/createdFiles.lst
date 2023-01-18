@@ -1,0 +1,11 @@
+com\telusko\JerseryRest\service\implementations\AlienResouceImp.class
+com\telusko\JerseryRest\model\Person.class
+com\telusko\JerseryRest\DAO\PersonRepository.class
+com\telusko\JerseryRest\service\implementations\PersonResourceImpl.class
+com\telusko\JerseryRest\model\Alien.class
+com\telusko\JerseryRest\service\interfaces\PersonResource.class
+com\telusko\JerseryRest\DAO\AlienRepository.class
+com\telusko\JerseryRest\database\DBConnectionManager.class
+com\telusko\JerseryRest\service\implementations\MyResource.class
+com\telusko\JerseryRest\service\interfaces\AlienResource.class
+com\telusko\JerseryRest\model\Response.class
